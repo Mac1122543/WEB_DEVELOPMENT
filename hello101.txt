@@ -1,0 +1,3 @@
+user.name=zishan
+user.email=mactyller99@gmail.com
+user.mail=mactyller99@gmail.com
