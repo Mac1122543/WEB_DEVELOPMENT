@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+           
+            height: 50vh;
+        width: 100wh;
+            background-color: red;
+        
+
+        }
+
+        .container
+        {
+            display: inline-block;
+            border: 2px solid black;
+            
+        }   
+        img{
+            height: 145px;
+            /* width: 200px;
+            transition-property:width ;
+            transition-duration: .25s;
+            transition-timing-function:ease-in;
+            transition-delay: 2s; */
+            transition: width 1s ease-in .5s;
+            /* transition:height 1s ease-out .5s; */
+        }
+        img{
+            width: 146px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <div class="container">
+           <img id="myimage" src="https://picsum.photos/700" alt="">
+           <button id="btn">Toggle</button>
+            </div>
+
+    </div>
+    
+
+</body>
+<script>
+            myimage.style.width = "146px";
+
+    btn.addEventListener("click",()=>{
+
+        if( myimage.style.width === "546px")
+        {
+            myimage.style.width = "146px";
+        }
+        else if(myimage.style.width === "146px")
+        {
+            myimage.style.width = "546px";
+        }
+    
+
+        
+    })
+</script>
+</html>
