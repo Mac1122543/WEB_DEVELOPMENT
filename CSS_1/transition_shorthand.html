@@ -28,8 +28,9 @@
             transition-duration: .25s;
             transition-timing-function:ease-in;
             transition-delay: 2s; */
-            transition: width 1s ease-in .5s;
             /* transition:height 1s ease-out .5s; */
+            transition:   1s ease-in .5s;
+            /* transition:   1s ease-in .5s; */
         }
         img{
             width: 146px;
@@ -58,10 +59,13 @@
         if( myimage.style.width === "546px")
         {
             myimage.style.width = "146px";
+            myimage.style.height = "146px";
+
         }
         else if(myimage.style.width === "146px")
         {
             myimage.style.width = "546px";
+            myimage.style.height = "546px";
         }
     
 
