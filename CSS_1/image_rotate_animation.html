@@ -7,15 +7,36 @@
     <title>Document</title>
     <style>
         main{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        img:hover{
+           animation: dragon .5s ease-in-out  2;
+            /* animation: ; */
+        }
+        
+
+        @keyframes dragon {
+            0%{
+                rotate: 0deg;
+            }
+            100%{
+                rotate: 360deg;
+            }
             
         }
+        
     </style>
     
 </head>
 <body>
-<main>
-
-</main>
+    <main>
+        <img id="img1" src="index.png" alt="">
+    </main>
     
 </body>
+
+
 </html>
