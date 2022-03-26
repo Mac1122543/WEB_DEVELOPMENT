@@ -12,5 +12,9 @@ else
 {
     console.log("false");
 }
+var _1u="o";
+// var tu%=8990;
+// console.log(tu%);
+console.log(_1u);
 console.log(name);
 console.log(age);
