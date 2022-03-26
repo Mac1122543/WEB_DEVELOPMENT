@@ -19,7 +19,7 @@ var n1=10+"20";
 console.log(n1);
 
 var n2=9-"5";//bug
-console.log(n2);
+console.log(n2); 
 
 var n3="java"+"script";
 console.log(n3);
@@ -30,6 +30,12 @@ console.log(n4);
 
 var n5="zedi"-"alpha";
 console.log(n5);
+
+
+// 1 ===> true
+//0  ===> false
+
+
 
 var n6=true+true;
 console.log(n6);
