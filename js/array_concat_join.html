@@ -7,21 +7,15 @@
     <title>Document</title>
 </head>
 <script>
-
-    var arr=["harry","salman","majnu"];
-
-    document.write("<br><br>"+arr);
-    arr.pop();
-    document.write("<br><br>"+arr);
-
-    arr.push("salman");
-    document.write("<br><br>"+arr);
-    arr.push("rehan");
-    document.write("<br><br>"+arr);
- 
-
-
-</script>
+    a=["aman","rehman","rahul"];
+    document.write("<br>"+a);
+    b=a.concat("ahad","ajay");
+    document.write("<br>"+b);
+    c=["lo","po"];
+    d=a.concat(b,c);
+    d=d.join("-");
+    document.write("<br>"+d);
+    </script>
 <body>
     
 </body>
