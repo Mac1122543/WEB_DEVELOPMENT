@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 var name = "hii";
 var age=20;
 var $age1="20";
@@ -18,3 +19,6 @@ var _1u="o";
 console.log(_1u);
 console.log(name);
 console.log(age);
+=======
+console.log('hello world');
+>>>>>>> 5fd9122 (next js files are added)

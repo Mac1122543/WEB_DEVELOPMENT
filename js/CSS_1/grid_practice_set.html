@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+      }
+      ul li {
+        padding: 10px;
+        list-style: none;
+      }
+      header {
+        background-color: black;
+        width: 100%;
+        color: azure;
+        grid-gap: 2px 2px;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 257px;
+        justify-content: center;
+      }
+      .box1 {
+        background-color: blue;
+        height: 50vh;
+        width: 40vw;
+      }
+      .box2 {
+        background-color: red;
+        height: 50vh;
+        width: 40vw;
+      }
+
+      @media screen {
+        body {
+          background-color: yellow;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        body {
+          background-color: red;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        body {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>Home</li>
+        <li>about</li>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="box1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus velit
+        eligendi ipsam sequi, animi aliquid adipisci, tempora repellendus ullam
+        fugiat modi, nesciunt cupiditate ab veritatis numquam ratione
+        repudiandae unde doloribus.
+      </div>
+
+      <div class="box2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus
+        sed a laborum delectus hic officiis odio ducimus numquam maiores
+        officia. Accusamus nemo dicta ex reiciendis ab debitis vel est earum!
+      </div>
+    </div>
+  </body>
+</html>

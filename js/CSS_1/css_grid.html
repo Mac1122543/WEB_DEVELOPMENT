@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .container{
+         display: grid;
+         background-color: yellow;
+         
+
+
+         /* grid-row-gap:9px;
+         grid-column-gap: 5px ; */
+
+         /* inhand statement for grid clomn gap and row gap is  below*/
+         grid-gap:40px 30px;
+         /* using below code we can give size to each column element's  width*/
+         grid-template-columns: 100px 100px 100px 100px 100px;
+         /* using below code we cn give size to each row elemnt to in crease its height */
+         grid-template-rows: 35px ;
+        
+     }
+     .item
+     {
+         background-color: aqua;
+         border: 2px solid red;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>
